@@ -1,0 +1,162 @@
+body {
+    background-image: url(TurkBg.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: calc(50% + 0.5vw) top;
+    background-attachment: scroll;
+    
+}
+
+h1{
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #d88f43;
+}
+
+h2 {
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 300%;
+}
+
+.hero {
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 10%;
+    min-height: calc(100vh - 85px); 
+}
+.hero h1 {
+    font-size: 450%;
+}
+
+.hero h4 {
+    font-family: "anton", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 150%;
+color: black;
+}
+
+.hero img {
+    height: 300px;
+    width: auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.card {
+    margin-left: 15%;
+    box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.35);
+border-radius: 17px;
+background-color: #f1e6d3;
+width: 30%;
+}
+
+.card h5 {
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #d88f43;
+font-size: 170%;
+}
+
+@media (min-width: 992px) {
+    .generalInfo {
+        padding-left: 5rem;
+    }
+
+    .general > h2 {
+        margin-left: 4rem;
+    }
+}
+
+.generalInfo h2 {
+    margin-left: 10%;
+}
+
+.googleMap iframe {
+    display: block;
+    width: 100%;
+    max-width: 570px;
+    height: 430px;
+}
+
+
+
+
+
+
+
+
+
+/* footer styling */
+
+.footer {
+    background-color: #7a5349;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer h3, h4 {
+    color: white;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #7a5349;
+    padding: 10px 0;
+}
+
+/* Logo */
+.nav-logo {
+    height: 65px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Navigation links */
+.navbar-nav {
+    gap: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+    
+}
+
+.nav-link:hover {
+    color: #f0db41;
+    font-family: "the-seasons", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* Hamburger button */
+.navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+}
+
+/* Mobile navigation */
+@media (max-width: 991px) {
+    .navbar-nav {
+        gap: 5px;
+        padding: 15px 0;
+    }
+
+    .nav-link {
+        text-align: right;
+    }
+}
