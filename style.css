@@ -49,11 +49,11 @@ color: black;
 }
 
 .card {
-    margin-left: 15%;
+    margin-left: 10%;
     box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.35);
 border-radius: 17px;
 background-color: #f1e6d3;
-width: 30%;
+width: 35%;
 }
 
 .card h5 {
@@ -79,10 +79,8 @@ font-size: 170%;
 }
 
 .googleMap iframe {
-    display: block;
     width: 100%;
-    max-width: 570px;
-    height: 430px;
+    border-radius: 0.25rem;
 }
 
 
